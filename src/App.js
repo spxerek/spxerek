@@ -1,24 +1,16 @@
-import logo from './logo.svg';
+
 import './App.css';
+
+import ParticlesComponent from './components/particle';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <ParticlesComponent id= "particles"/>
+      <p className='nre'>Spxerek</p>
+      <p className='nre1'>F</p>
     </div>
+    
   );
 }
 

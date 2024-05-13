@@ -1,38 +1,40 @@
 .App {
   text-align: center;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+#particles canvas{
+  z-index: -1;
+  height: 100%;
+  width: 100%;
+  position: absolute;
   }
+
+.nre{
+  font-family: 'borph', sans-serif;
+  font-size: 100px;
+  color: rgb(37, 194, 221);
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.nre1{
+  font-family: 'animals', sans-serif;
+  font-size: 500px;
+  color:rgb(10, 10, 10);
+  margin-top: 140px;
+  margin-left: 10px;
+  opacity: 0.5;
+  text-shadow: 
+  1px -1px 0 #ffffff, /* Top left */
+  -1px 1px 0 #ffffff, /* Top right */
+ -1px -1px 0 #ffffff, /* Bottom left */
+  1px 1px 0 #ffffff; /* Bottom right */;
 }
 
-.App-link {
-  color: #61dafb;
-}
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+
+@font-face {
+  font-family: 'borph';
+  src: url('fonts/BROMPH_TOWN.woff2') format('woff2');
+}
+@font-face {
+  font-family: 'animals';
+  src: url('fonts/Tribal\ Animals\ Tattoo\ Designs.woff2') format('woff2');
 }
