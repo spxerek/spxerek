@@ -1,16 +1,19 @@
-
 import './App.css';
-
 import ParticlesComponent from './components/particle';
 
 function App() {
   return (
     <div className="App">
-      <ParticlesComponent id= "particles"/>
-      <p className='nre'>Spxerek</p>
-      <p className='nre1'>F</p>
+      <div className="background-container">
+        <ParticlesComponent id="particles" />
+      </div>
+      <div className='content-wrapper'>
+        <p className='newtext'>Spxerek</p>
+        <div className='contents '>
+          <p>Made by sarvesh</p>
+        </div>
+      </div>
     </div>
-    
   );
 }
 
