@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/spxerek/static/css/main.5648cbf7.css",
-    "main.js": "/spxerek/static/js/main.76706f53.js",
+    "main.css": "/spxerek/static/css/main.27a79cf3.css",
+    "main.js": "/spxerek/static/js/main.cdb0f760.js",
     "static/js/453.c3deee69.chunk.js": "/spxerek/static/js/453.c3deee69.chunk.js",
     "static/media/BROMPH_TOWN.woff2": "/spxerek/static/media/BROMPH_TOWN.f379248df74478a3fc47.woff2",
     "static/media/Tribal Animals Tattoo Designs.woff2": "/spxerek/static/media/Tribal Animals Tattoo Designs.333937d72f2150043487.woff2",
     "index.html": "/spxerek/index.html",
-    "main.5648cbf7.css.map": "/spxerek/static/css/main.5648cbf7.css.map",
-    "main.76706f53.js.map": "/spxerek/static/js/main.76706f53.js.map",
+    "main.27a79cf3.css.map": "/spxerek/static/css/main.27a79cf3.css.map",
+    "main.cdb0f760.js.map": "/spxerek/static/js/main.cdb0f760.js.map",
     "453.c3deee69.chunk.js.map": "/spxerek/static/js/453.c3deee69.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.5648cbf7.css",
-    "static/js/main.76706f53.js"
+    "static/css/main.27a79cf3.css",
+    "static/js/main.cdb0f760.js"
   ]
 }
