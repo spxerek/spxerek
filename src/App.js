@@ -7,13 +7,18 @@ function App() {
       <div className="background-container">
         <ParticlesComponent id="particles" />
       </div>
+      <div className='' >
       <div className='content-wrapper'>
         <p className='newtext'>Spxerek</p>
         <div className='contents '>
-          <p>Made by sarvesh</p>
+            <div className='sidebar'>
+              
+            </div>
         </div>
       </div>
+      </div>
     </div>
+    
   );
 }
 

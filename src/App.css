@@ -16,12 +16,11 @@ body {
   left: 0;
   width: 100%;
   height: 100%;
-  background: rgb(23, 17, 138);
+  background: rgb(122,134,237);
   background: linear-gradient(
     90deg,
-    rgba(23, 17, 138, 1) 0%,
-    rgba(0, 0, 88, 1) 0%,
-    rgba(129, 234, 255, 1) 100%
+    rgba(122,134,237,1) 0%,
+    rgba(129,244,255,1) 100%
   );
   z-index: -1; /* Behind particles */
 }
@@ -43,16 +42,22 @@ body {
 .newtext {
   font-family: 'borph', sans-serif;
   font-size: 100px;
-  color: rgb(37, 194, 221);
+  color: transparent; /* Make text transparent */
   text-align: center;
   margin-top: 50px; /* Margin to separate from contents */
   margin-bottom: 20px;
+  background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(72,88,224,1) 100%);
+  -webkit-background-clip: text; /* Clip the background to the text */
+  background-clip: text; /* Clip the background to the text */
+  -webkit-text-fill-color: transparent; /* Set text fill color to transparent */
+  text-fill-color: transparent; /* Set text fill color to transparent */
 }
+
 
 .contents {
   /*box-shadow: 0 0 20px rgb(27, 20, 155);*/
   border-radius: 10px;
-  padding: 10px;
+  padding: 50px;
   width: 800px;
   max-width: 90%; /* Ensure it's responsive */
   min-height: calc(100vh - 200px); /* Adjusted min-height */
@@ -60,6 +65,10 @@ body {
   margin-bottom: 20px; /* Added margin at the bottom */
   animation: shadowAnimation 1.5s ease-in-out infinite alternate;
 }
+
+
+
+
 
 
 @keyframes shadowAnimation {
@@ -71,6 +80,25 @@ body {
   }
 }
 
+.navbar {
+  display: block;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  color: white;
+  width: calc(100% - 20px);
+  padding: 10px;
+  text-align: center;
+  background: hsla(240, 1%, 17%, 0.75);
+  backdrop-filter: blur(10px);
+  border: 1px solid var(--jet);
+  border-radius: 20px 20px 0 0;
+  box-shadow: var(--shadow-2);
+  z-index: 5;
+}
+
+
 
 @media (max-width: 768px) {
   .contents {
@@ -81,9 +109,11 @@ body {
 
 @media (max-width: 480px) {
   .newtext {
-    font-size: 30px; /* Reduce font size even further on very small screens */
+    font-size: 80px; /* Reduce font size even further on very small screens */
+  
   }
 }
+
 
 @font-face {
   font-family: 'borph';
@@ -93,6 +123,40 @@ body {
   font-family: 'animals';
   src: url('fonts/Tribal\ Animals\ Tattoo\ Designs.woff2') format('woff2');
 }
+@font-face {
+  font-family: 'heyam';
+  src: url('fonts/Heyam.woff2') format('woff2');
+}
+@font-face {
+  font-family: 'coffee';
+  src: url('fonts/Coffee\ Normal.woff2') format('woff2');
+}
+@font-face {
+  font-family: 'balance';
+  src: url('fonts/Balance\ Groovy\ -\ Sans.woff2') format('woff2');
+}
+
+
+#heyam{
+  font-family: 'heyam', sans-serif;
+  font-size: 60px;
+  color: aliceblue;
+  margin-bottom: 5px;
+}
+
+#coffee{
+  font-family: 'coffee', sans-serif;
+  font-size: 30px;
+  color: rgb(255, 255, 255);
+}
+
+#balance{
+  font-family: 'balance', sans-serif;
+  font-size: 30px;
+  color: rgb(255, 255, 255);
+}
+
+
 
 
 
