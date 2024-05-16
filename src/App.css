@@ -46,6 +46,7 @@ body {
   text-align: center;
   margin-top: 50px; /* Margin to separate from contents */
   margin-bottom: 20px;
+  background: rgb(0,0,0);
   background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(72,88,224,1) 100%);
   -webkit-background-clip: text; /* Clip the background to the text */
   background-clip: text; /* Clip the background to the text */
@@ -100,19 +101,55 @@ body {
 
 
 
-@media (max-width: 768px) {
+
+
+/* Smaller screens */
+@media screen and (max-width: 768px) {
   .contents {
-    width: 100%;
-    height: auto; /* Let it expand vertically as needed */
+    padding: 20px;
+    width: 90%;
+    min-height: calc(100vh - 150px);
+  }
+  .newtext {
+    font-size: 60px;
+    margin-top: 30px;
+    margin-bottom: 10px;
   }
 }
 
-@media (max-width: 480px) {
+/* Tablets */
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+  .contents {
+    padding: 30px;
+    width: 90%;
+    min-height: calc(100vh - 150px);
+  }
   .newtext {
-    font-size: 80px; /* Reduce font size even further on very small screens */
-  
+    font-size: 80px;
+    margin-top: 40px;
+    margin-bottom: 15px;
   }
 }
+
+/* Larger screens */
+@media screen and (min-width: 1025px) {
+  .contents {
+    padding: 50px;
+    width: 800px;
+    min-height: calc(100vh - 200px);
+  }
+  .newtext {
+    font-size: 100px;
+    margin-top: 50px;
+    margin-bottom: 20px;
+  }
+}
+
+
+
+
+
+
 
 
 @font-face {
