@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/spxerek/static/css/main.7abdea78.css",
+    "main.css": "/spxerek/static/css/main.0fb597f9.css",
     "main.js": "/spxerek/static/js/main.f170aaee.js",
     "static/js/453.c3deee69.chunk.js": "/spxerek/static/js/453.c3deee69.chunk.js",
     "static/media/BROMPH_TOWN.woff2": "/spxerek/static/media/BROMPH_TOWN.f379248df74478a3fc47.woff2",
@@ -9,12 +9,12 @@
     "static/media/Heyam.woff2": "/spxerek/static/media/Heyam.0a4e578eeb449e3b5fff.woff2",
     "static/media/Balance Groovy - Sans.woff2": "/spxerek/static/media/Balance Groovy - Sans.67dca113ef25fb8feafc.woff2",
     "index.html": "/spxerek/index.html",
-    "main.7abdea78.css.map": "/spxerek/static/css/main.7abdea78.css.map",
+    "main.0fb597f9.css.map": "/spxerek/static/css/main.0fb597f9.css.map",
     "main.f170aaee.js.map": "/spxerek/static/js/main.f170aaee.js.map",
     "453.c3deee69.chunk.js.map": "/spxerek/static/js/453.c3deee69.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.7abdea78.css",
+    "static/css/main.0fb597f9.css",
     "static/js/main.f170aaee.js"
   ]
 }
